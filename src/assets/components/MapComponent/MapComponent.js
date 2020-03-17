@@ -23,7 +23,7 @@ class MapComponent extends Component {
         {navigationBar({website: this.props.website,classes:classes})}
          <div style={{ height: '100vh', width: '100%' }}>
           <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyB73hlKyVzfIlv8-L8K18AuILVpNpCW49E' }}
+            bootstrapURLKeys={{ key: /*API_KEY*/ }}
             defaultCenter={this.props.center}
             defaultZoom={this.props.zoom}
           >
